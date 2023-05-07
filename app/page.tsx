@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <div className="relative h-screen w-full">
+      <div className="relative mx-auto h-screen w-full max-w-[1920px]">
         <Image
           src="/v-hero 1.png"
           width={1600}
